@@ -21,9 +21,9 @@ function Navbar() {
                                         Map
                                     </a>
                                 </Link>
-                                <Link href='/about'>
+                                <Link href='/instructions'>
                                     <a className='px-3 py-2 text-sm font-medium text-black rounded-md cursor-pointer hover:bg-blue-600 hover:text-white'>
-                                        About
+                                        Instructions
                                     </a>
                                 </Link>
                                 <Link href='/survey'>
