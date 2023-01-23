@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Image from "next/image";
 import pin from "../images/pin.gif"
 
@@ -15,7 +14,9 @@ export default function Home() {
         <h3 className="text-3xl lg:text-2xl text-Black">Click on the pin to get started</h3>
       </section>
       <div>
-        <Image src={pin} href="/map" width={708 / 1.5} height={690 / 1.5} />
+        <a href = "/map">
+          <Image src={pin} width={708 / 1.5} height={690 / 1.5} />
+        </a>
       </div>
     </main>
   )
