@@ -11,11 +11,13 @@ export default function Home() {
         <h2 className="text-3xl font-bold lg:text-4xl text-Black">
           Interactive Travel Map
         </h2>
-        <h3 className="text-3xl lg:text-2xl text-Black">Click on the pin to get started</h3>
+        <h3 className="text-3xl lg:text-2xl text-Black">
+          Click on the pin to get started
+        </h3>
       </section>
       <div>
         <a href = "/map">
-          <Image src={pin} width={708 / 1.5} height={690 / 1.5} />
+          <Image src={pin} width={708 / 1.5} height={690 / 1.5} unoptimized={true} />
         </a>
       </div>
     </main>
